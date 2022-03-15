@@ -61,7 +61,6 @@ public class ItemsAdapter extends BaseAdapter {
         TextView txtShop = (TextView) convertView.findViewById(R.id.Shop);
         final ConstraintLayout constraintLayout = (ConstraintLayout) convertView.findViewById(R.id.idConconstraintlayout);
         final Item item = listItems.get(position);
-
         if(listItems != null && !listItems.isEmpty()) {
             txtName.setText(item.getName());
             txtShop.setText(item.getShop());
